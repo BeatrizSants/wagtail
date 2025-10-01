@@ -158,9 +158,9 @@ workflows:
               only:
                 - main
 orbs:
-  codecov: codecov/codecov@5
+    codecov: codecov/codecov@5
 workflows:
-  upload-to-codecov:
+    upload-to-codecov:
     jobs:
       - checkout 
       - codecov/upload
